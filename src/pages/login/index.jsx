@@ -30,11 +30,9 @@ const Login = () => {
 
             alert('Usuário ou senha inválido')
         }catch(e){
-            //TODO: HOUVE UM ERRO
+            alert('Houve um erro, tente novamente')
         }
     };
-
-    console.log('errors', errors);
 
     return (<>
         <Header />
